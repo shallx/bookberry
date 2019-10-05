@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+body{
+	//font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.text-inverse{
+	color: #ffffff;
+}
+
+h1, h2, h3{
+	font-weight: 800;
+}
+
+.navbar{
+    font-family: 'Muli', sans-serif;
+	margin-bottom: 0px;
+    background-color: #DF6662;
+    //position: absolute;
+    width: 100%;
+    border: 0px;
+}
+
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+    padding:0px;
+    width: 200px;
+}
+
+.fa-home {
+    margin-right:5px;
+    display: none;
+}
+
+.navbar-header-title {
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: white;
+    padding: 5px;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.menu-nav>li>a:hover {
+    color: #27ae61 !important;
+    background-color: white !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+	background-color: rgba(0,0,0,0.25);
+}
+
+//.dropdown:hover > ul.dropdown-menu{
+//    display: block;
+}
+.dropdown-menu{
+    background: #DF6662;
+}
+.dropdown-menu > li > a {
+    color: white;
+    font-weight: 500;
+}
+.title-container{
+    height: 700px;
+	padding: 75px 0px;  
+	background: url('../img/cover.jpg');
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-title{
+	font-size: 65px;
+    margin-top: 200px;
+	position: relative;	
+}
+
+.line{
+    //content: "";
+	width: 75px;
+	height: 5px;
+	background: #ffffff;
+    margin: auto;
+}
+
+#wrapper {
+    position: relative;
+    top: 150px;
+}
+
+.filter h3 {
+    margin-bottom: 23px;
+}
+.post-container{
+	max-width: 750px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.single-post-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.book-item{
+	padding: 15px 15px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.book-title{
+	margin-bottom: 15px;
+}
+
+.book-info {
+    margin-top: 5px;
+    padding-left: 15px
+}
+
+.book-img {
+    height: 250px;
+    width: auto;
+    padding: 5px;
+    border: 1px solid #C4CDD1;
+    //border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+	
+
+.form-controls{
+	border-radius: 0px;
+	box-shadow: none;
+	padding: 25px 5px;
+	border: 0px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.form-controls:focus{
+	box-shadow: none;
+}
+
+.btn-flat{
+    margin-top: 20px;
+	border-radius: 0px;
+	padding: 15px;
+	font-weight: 800;
+	background: transparent;
+	text-transform: uppercase;
+	border: 1px solid #e0e0e0;
+}
+
+.btn-flat:hover{
+	background: #333;
+	color: #fff;
+}
+
+.btn-control {
+    margin-bottom: 15px;
+}
+
+.login-container{
+	max-width: 450px;
+	margin: 25px auto;
+	border: 1px solid #e0e0e0;
+	background: #ffffff;
+	padding: 25px;
+	margin-top: 16%;
+}
+
+.details{
+	margin-top: 25px;
+	text-align: justify;
+    padding: 10px;
+}
+
+footer{
+	border-top: 1px solid #e0e0e0;
+	padding: 50px 0px;
+}
+
+.footer-nav-item{
+	margin: 10px;
+	font-size: 25px;
+}
+
+
+.topbar {
+    background-color: #F5F5F5;
+}
+.mynav>li>a:hover {
+    color: #27ae61;
+}
+.mynav>li>a {
+   color: white;
+}
+
+.siteinfo {
+    padding: 15px 15px 15px 70px;
+    color: #999999;
+}
+
+.banner-img {
+    width: 50px;
+    height 50px;
+}
+
+.book-summary {
+    font-size: 19px;
+	color: #4c4c4c;
+    padding-left:15px;
+}
+.title-section {
+    margin-top: 40px;
+}
+.title-section h3 {
+    color: #dd575e;
+    position: relative;
+}
+
+.title-section h3::after{
+    content: "";
+	position: absolute;
+	width: 75px;
+	height: 5px;
+	background: #A09F9D;
+	top: 45px;
+	left: 46.5%;
+}
+
+.bugfixer {
+    height: 150px;
+}
+
+.empty-book-error {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.cart-out {
+    margin-top: 55px;
+}
+
+@media only screen and (max-width: 756px) {
+    .navbar-brand {
+        display: block;
+        margin-left:5px;
+
+        
+    }
+    .menu-nav> li {
+        text-align: center;
+    }
+    .fa-codepen {
+        margin-right: 10px;
+        margin-top: 3px;
+    }
+    .navbar-header-title {
+        color: #2a1506 !important;
+    }
+    .dropdown-menu {
+        text-align: center;
+    }
+    .dropdown-menu > li > a {
+        color: #fff !important;
+    }
+}
+@media only screen and (max-width: 400px){
+    .page-title{
+        font-size: 35px;
+    }
+    .book-title > a{
+        font-size: 30px;
+    }
+    .post-item {
+        margin-bottom: 20px;
+    }
+}
